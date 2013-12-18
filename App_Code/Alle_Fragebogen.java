@@ -35,7 +35,9 @@ public class Alle_Fragebogen extends ListActivity {
 	private static final String TAG_SUCCESS = "success";
 	private static final String TAG_FRAGEBOGEN = "fragebogen";
 	private static final String TAG_FID = "f1id";
+	//private static final String TAG_FID = "fid";
 
+	
 	// fragebogen JSONArray
 	JSONArray fragebogen = null;
 
@@ -69,7 +71,7 @@ public class Alle_Fragebogen extends ListActivity {
 		protected void onPreExecute() {
 			super.onPreExecute();
 			pDialog = new ProgressDialog(Alle_Fragebogen.this);
-			pDialog.setMessage("Loading products. Please wait...");
+			pDialog.setMessage("Fragebogen werden geladen. Bitte warten ...");
 			pDialog.setIndeterminate(false);
 			pDialog.setCancelable(false);
 			pDialog.show();
