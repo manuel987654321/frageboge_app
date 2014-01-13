@@ -18,7 +18,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
-public class Alle_Fragebogen extends ListActivity {
+public class Alle_Fragebogen_2 extends ListActivity {
 
 	// Fortschritts Dialog
 	private ProgressDialog pDialog;
@@ -29,15 +29,13 @@ public class Alle_Fragebogen extends ListActivity {
 	ArrayList<HashMap<String, String>> fragebogenList;
 
 	// url zur php Seite welche die Fragebogenliste enthält
-	private static String url_all_fragebogen = "http://172.20.10.3/Fragebogen_app/read_allfragebogen.php";
+	private static String url_all_fragebogen = "http://10.0.0.97/Fragebogen_app/read_allfragebogen_2.php";
 
 	// JSON Node names
 	private static final String TAG_SUCCESS = "success";
 	private static final String TAG_FRAGEBOGEN = "fragebogen";
-	private static final String TAG_FID = "f1id";
-	//private static final String TAG_FID = "fid";
-
-	
+	private static final String TAG_FID = "f2id";
+		
 	// fragebogen JSONArray
 	JSONArray fragebogen = null;
 
@@ -70,7 +68,7 @@ public class Alle_Fragebogen extends ListActivity {
 		@Override
 		protected void onPreExecute() {
 			super.onPreExecute();
-			pDialog = new ProgressDialog(Alle_Fragebogen.this);
+			pDialog = new ProgressDialog(Alle_Fragebogen_2.this);
 			pDialog.setMessage("Fragebogen werden geladen. Bitte warten ...");
 			pDialog.setIndeterminate(false);
 			pDialog.setCancelable(false);
@@ -138,7 +136,7 @@ public class Alle_Fragebogen extends ListActivity {
 					 * JSON Daten in ListView
 					 * */
 					ListAdapter adapter = new SimpleAdapter(
-							Alle_Fragebogen.this, fragebogenList,
+							Alle_Fragebogen_2.this, fragebogenList,
 							R.layout.list_item, new String[] { TAG_FID },
 							new int[] { R.id.fid });
 

@@ -1,17 +1,28 @@
 package com.example.fragebogen_test;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
 
-@Root
+@Root(name="Fragebogen")
 public class Fragebogen {
 	@ElementList(name = "Fragebogen", inline = true)
 	private List<Frage> fragen;
 
+	public  Fragebogen() {
+		super();
+		this.fragen = new ArrayList<Frage>();
+	}
+	
 	public List<Frage> getFragen() {
 		return fragen;
+	}
+	
+	public void createFrage(String frage, String vorschlag){
+		this.add(new Frage(this.fragen.size()+
+				1,frage, vorschlag));
 	}
 
 	public void add(Frage f) {
@@ -21,15 +32,8 @@ public class Fragebogen {
 	public int anzFragen() {
 		return fragen.size();
 	}
-
-	public Fragebogen(
-			@ElementList(name = "Fragebogen", inline = true) List<Frage> fragen) {
-		super();
-		this.fragen = fragen;
+	
+	public Frage get(int index){
+		return this.fragen.get(index);
 	}
-
-	public Fragebogen() {
-		super();
-	}
-
 }
