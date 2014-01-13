@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 13, 2014 at 09:09 PM
+-- Generation Time: Dec 18, 2013 at 10:40 AM
 -- Server version: 5.5.32
 -- PHP Version: 5.4.19
 
@@ -34,14 +34,15 @@ CREATE TABLE IF NOT EXISTS `dritterfragebogen` (
   `2teantwort` varchar(20) NOT NULL,
   `3teantwort` varchar(20) NOT NULL,
   PRIMARY KEY (`fid`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=6 ;
 
 --
 -- Dumping data for table `dritterfragebogen`
 --
 
 INSERT INTO `dritterfragebogen` (`fid`, `1teantwort`, `2teantwort`, `3teantwort`) VALUES
-(1, 'nein', '5039', '1');
+(4, 'ja', 'ja', 'Golf'),
+(5, 'nein', 'nein', 'Bergsteigen');
 
 -- --------------------------------------------------------
 
@@ -61,6 +62,16 @@ CREATE TABLE IF NOT EXISTS `ersterfragebogen` (
   `8te antwort` varchar(20) DEFAULT NULL,
   `9te antwort` varchar(20) DEFAULT NULL,
   `10te antwort` varchar(20) DEFAULT NULL,
+  `11te antwort` varchar(20) DEFAULT NULL,
+  `12te antwort` varchar(20) DEFAULT NULL,
+  `13te antwort` varchar(20) DEFAULT NULL,
+  `14te antwort` varchar(20) DEFAULT NULL,
+  `15te antwort` varchar(20) DEFAULT NULL,
+  `16te antwort` varchar(20) DEFAULT NULL,
+  `17te antwort` varchar(20) DEFAULT NULL,
+  `18te antwort` varchar(20) DEFAULT NULL,
+  `19te antwort` varchar(20) DEFAULT NULL,
+  `20te antwort` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`f1id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
@@ -68,9 +79,9 @@ CREATE TABLE IF NOT EXISTS `ersterfragebogen` (
 -- Dumping data for table `ersterfragebogen`
 --
 
-INSERT INTO `ersterfragebogen` (`f1id`, `1te antwort`, `2te antwort`, `3te antwort`, `4te antwort`, `5te antwort`, `6te antwort`, `7te antwort`, `8te antwort`, `9te antwort`, `10te antwort`) VALUES
-(1, 'ja', 'ja', 'ja', 'nein', 'ja', 'nein', 'ja', 'nein', 'ja', 'nein'),
-(2, 'nein', 'nein', 'nein', 'ja', 'ja', 'nein', 'ja', 'nein', 'ja', 'nein');
+INSERT INTO `ersterfragebogen` (`f1id`, `1te antwort`, `2te antwort`, `3te antwort`, `4te antwort`, `5te antwort`, `6te antwort`, `7te antwort`, `8te antwort`, `9te antwort`, `10te antwort`, `11te antwort`, `12te antwort`, `13te antwort`, `14te antwort`, `15te antwort`, `16te antwort`, `17te antwort`, `18te antwort`, `19te antwort`, `20te antwort`) VALUES
+(1, 'ja', 'ja', 'ja', 'nein', 'ja', 'nein', 'ja', 'nein', 'ja', 'nein', ' nein', 'ja', 'ja', 'ja', 'nein', 'nein', 'ja', 'ja', 'nein', 'ja'),
+(2, 'nein', 'nein', 'nein', 'ja', 'ja', 'nein', 'ja', 'nein', 'ja', 'nein', ' nein', 'ja', 'ja', 'ja', 'ja', 'ja', 'ja', 'ja', 'nein', 'ja');
 
 -- --------------------------------------------------------
 
@@ -90,15 +101,18 @@ CREATE TABLE IF NOT EXISTS `zweiterfragebogen` (
   `8te antwort` varchar(20) DEFAULT NULL,
   `9te antwort` varchar(20) DEFAULT NULL,
   `10te antwort` varchar(20) DEFAULT NULL,
+  `11te antwort` varchar(20) DEFAULT NULL,
+  `12te antwort` varchar(20) DEFAULT NULL,
+  `13te antwort` varchar(20) DEFAULT NULL,
+  `14te antwort` varchar(20) DEFAULT NULL,
+  `15te antwort` varchar(20) DEFAULT NULL,
+  `16te antwort` varchar(20) DEFAULT NULL,
+  `17te antwort` varchar(20) DEFAULT NULL,
+  `18te antwort` varchar(20) DEFAULT NULL,
+  `19te antwort` varchar(20) DEFAULT NULL,
+  `20te antwort` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`f2id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
-
---
--- Dumping data for table `zweiterfragebogen`
---
-
-INSERT INTO `zweiterfragebogen` (`f2id`, `1te antwort`, `2te antwort`, `3te antwort`, `4te antwort`, `5te antwort`, `6te antwort`, `7te antwort`, `8te antwort`, `9te antwort`, `10te antwort`) VALUES
-(1, 'ja', 'nein', 'nein', 'nein', 'ja', 'ja', 'nein', 'nein', 'ja', 'ja');
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
