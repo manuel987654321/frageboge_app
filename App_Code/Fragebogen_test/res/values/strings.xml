@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fragebogen_test</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_ersterfragebogen">1ter Fragebogen</string>
+    <string name="title_zweiterfragebogen">2ter Fragebogen</string>
+    <string name="title_alle_fragebogen">Alle Fragebogen anzeigen</string>
+    <string name="title_list_item">List_item</string>
+    <string name="title_erstelle_fragebogen">Neuen Fragebogen erstellen</string>
+    <string name="fragebogen_frage_dummy">Frage</string>
+    <string name="fragebogen_antwort_dummy">Antwort</string>
+
+</resources>
