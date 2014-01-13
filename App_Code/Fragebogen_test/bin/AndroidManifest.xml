@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fragebogen_test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.fragebogen_test.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Alle Fragebogen ausgeben Activity -->
+        <activity
+            android:name="com.example.fragebogen_test.AllFragebogenActivity"
+            android:label="Alle Fragebogen ausgeben" >
+        </activity>
+
+        <!-- Einen Fragebogen hinzufügen Activity -->
+        <activity
+            android:name="com.example.fragebogen_test.Erstelle_Fragebogen"
+            android:label="Neuen Fragebogen erstellen" >
+        </activity>
+        <activity
+            android:name="com.example.fragebogen_test.Ersterfragebogen"
+            android:label="@string/title_ersterfragebogen" >
+        </activity>
+        <activity
+            android:name="com.example.fragebogen_test.Zweiterfragebogen"
+            android:label="@string/title_zweiterfragebogen" >
+        </activity>
+        <activity
+            android:name="com.example.fragebogen_test.List_item"
+            android:label="@string/title_list_item" >
+        </activity>
+        <activity
+            android:name="com.example.fragebogen_test.Alle_Fragebogen"
+            android:label="@string/title_alle_fragebogen" >
+        </activity>
+    </application>
+
+    <!-- Internet Fähigkeit -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
