@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fragebogen_test.Erstelle_Fragebogen" 
+    android:background="@layout/grad">
+
+    <ListView
+        android:id="@+id/fragen_list"
+        android:layout_width="match_parent"
+        android:layout_height="358dp"
+        android:layout_weight="0.73" >
+    </ListView>
+
+    <Button
+        android:id="@+id/erstelle_fragebogen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragebogen anlegen" />
+
+</LinearLayout>

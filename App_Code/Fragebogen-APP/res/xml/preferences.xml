@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Layout auswählen" >
+        <CheckBoxPreference
+            android:key="k1"
+            android:summary="bestimmtes Layout"
+            android:title="Layout 1" />
+        <CheckBoxPreference
+            android:key="k2"
+            android:summary="bestimmtes Layout"
+            android:title="Layout 2" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

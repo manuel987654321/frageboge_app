@@ -1,0 +1,26 @@
+<Fragebogen>
+   <Fragen Index="1">
+      <Frage>1. Betreiben Sie Sport?</Frage>
+      <Vorschlag>ja/nein</Vorschlag>
+   </Fragen>
+   <Fragen Index="2">
+      <Frage>2. Wissen Sie, dass im Kaufhaus Tyrol ein Sportartikelhändler ist?</Frage>
+      <Vorschlag>ja/nein</Vorschlag>
+   </Fragen>
+   <Fragen Index="3">
+      <Frage>3. Welche Sportarten betreiben Sie?</Frage>
+      <Vorschlag>Fitness/Fussball/Bergsport/Radsport/Andere</Vorschlag>
+   </Fragen>
+	 <Fragen Index="4">
+      <Frage>4. Kaufen Sie Sportartikel bevorzugt in einem Fachgeschäft oder online ein?</Frage>
+      <Vorschlag>online/Fachgeschäft</Vorschlag>
+   </Fragen>
+    <Fragen Index="5">
+      <Frage>5. Welche Produkte würden Sie online nicht einkaufen?</Frage>
+      <Vorschlag>Bademodel/Bergsport/Radsport/Andere</Vorschlag>
+   </Fragen>
+    <Fragen Index="6">
+      <Frage>6. Kenne Sie den Intersport im Kaufhaus Tyrol?</Frage>
+      <Vorschlag>ja/nein</Vorschlag>
+   </Fragen>
+</Fragebogen>
