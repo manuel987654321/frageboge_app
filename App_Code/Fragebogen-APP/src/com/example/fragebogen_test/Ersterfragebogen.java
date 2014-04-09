@@ -29,8 +29,9 @@ public class Ersterfragebogen extends Activity {
 			    	break;
 			    
 			    case R.id.action_settings:
-				      Intent intent = new Intent(this, SettingsActivity.class);
-				      startActivity(intent);
+//				      Intent intent = new Intent(this, SettingsActivity.class);
+//				      startActivity(intent);
+			    	setContentView(R.layout.activity_main2);
 			    	break;
 			    default:
 			      break;

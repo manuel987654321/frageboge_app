@@ -43,7 +43,11 @@ public final class R {
         public static final int fragebogen_list_item_antwort=0x7f0a000c;
         public static final int fragebogen_list_item_frage=0x7f0a000b;
         public static final int fragen_list=0x7f0a0005;
-        public static final int logout=0x7f0a0011;
+        public static final int layout1=0x7f0a0011;
+        public static final int layout2=0x7f0a0012;
+        public static final int layout3=0x7f0a0013;
+        public static final int layout4=0x7f0a0014;
+        public static final int logout=0x7f0a0015;
         public static final int pwd_id=0x7f0a000e;
         public static final int ratingBar1=0x7f0a0004;
         public static final int seekBar1=0x7f0a0002;
@@ -51,20 +55,25 @@ public final class R {
         public static final int textView2=0x7f0a0003;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_main1=0x7f030001;
-        public static final int activity_settings=0x7f030002;
-        public static final int alle_fragebogen=0x7f030003;
-        public static final int alle_fragebogen_2=0x7f030004;
-        public static final int datenauswerten=0x7f030005;
-        public static final int erstelle_fragebogen=0x7f030006;
-        public static final int ersterfragebogen=0x7f030007;
-        public static final int fragebogen_item=0x7f030008;
-        public static final int fragebogen_login=0x7f030009;
-        public static final int grad=0x7f03000a;
-        public static final int header_gradient=0x7f03000b;
-        public static final int list_item=0x7f03000c;
-        public static final int zweiterfragebogen=0x7f03000d;
+        public static final int activity_main1=0x7f030000;
+        public static final int activity_main2=0x7f030001;
+        public static final int activity_main3=0x7f030002;
+        public static final int activity_main4=0x7f030003;
+        public static final int activity_settings=0x7f030004;
+        public static final int alle_fragebogen=0x7f030005;
+        public static final int alle_fragebogen_2=0x7f030006;
+        public static final int datenauswerten=0x7f030007;
+        public static final int erstelle_fragebogen=0x7f030008;
+        public static final int ersterfragebogen=0x7f030009;
+        public static final int fragebogen_item=0x7f03000a;
+        public static final int fragebogen_login=0x7f03000b;
+        public static final int grad1=0x7f03000c;
+        public static final int grad2=0x7f03000d;
+        public static final int grad3=0x7f03000e;
+        public static final int grad4=0x7f03000f;
+        public static final int header_gradient=0x7f030010;
+        public static final int list_item=0x7f030011;
+        public static final int zweiterfragebogen=0x7f030012;
     }
     public static final class menu {
         public static final int all_products=0x7f090000;

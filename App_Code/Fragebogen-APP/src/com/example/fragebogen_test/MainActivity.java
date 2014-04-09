@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_main1);
 		//Log.d("Fehlermeldung:", "mein Fehler");
 		
 	}
@@ -31,10 +31,35 @@ public class MainActivity extends Activity {
 			      startActivity(intent1);
 		    	break;
 		    
-		    case R.id.action_settings:
-			      Intent intent = new Intent(this, SettingsActivity.class);
-			      startActivity(intent);
+		    case R.id.layout1:
+//			      Intent intent = new Intent(this, SettingsActivity.class);
+//			      startActivity(intent);
+		    	setContentView(R.layout.activity_main1);
+		    
 		    	break;
+		    	
+		    case R.id.layout2:
+//			      Intent intent = new Intent(this, SettingsActivity.class);
+//			      startActivity(intent);
+		    	setContentView(R.layout.activity_main2);
+		    
+		    	break;
+	
+		    case R.id.layout3:
+//			      Intent intent = new Intent(this, SettingsActivity.class);
+//			      startActivity(intent);
+		    	setContentView(R.layout.activity_main3);
+		    
+		    	break;
+		    	
+		    case R.id.layout4:
+//			      Intent intent = new Intent(this, SettingsActivity.class);
+//			      startActivity(intent);
+		    	setContentView(R.layout.activity_main4);
+		    
+		    	break;	
+		    	
+		    
 		    default:
 		      break;
 		    }

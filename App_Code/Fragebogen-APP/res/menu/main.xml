@@ -2,10 +2,30 @@
     android:icon="@drawable/ic_action_select_all">
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/layout1"
         android:orderInCategory="100"
         android:showAsAction="never"       
-        android:title="Settings"/>
+        android:title="Layout 1"/>
+    
+    <item
+        android:id="@+id/layout2"
+        android:orderInCategory="100"
+        android:showAsAction="never"       
+        android:title="Layout 2"/>
+    
+    <item
+        android:id="@+id/layout3"
+        android:orderInCategory="100"
+        android:showAsAction="never"       
+        android:title="Layout 3"/>
+    
+    <item
+        android:id="@+id/layout4"
+        android:orderInCategory="100"
+        android:showAsAction="never"       
+        android:title="Layout 4"/>
+    
+    
     
     <item 
         android:id="@+id/logout"
